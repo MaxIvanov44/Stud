@@ -1,0 +1,8 @@
+bubble method 10K = 618 мс
+bubble method 50K = 12744 мс
+bubble method 100K = 50226 мс
+
+Sort 10K = 1 мс
+Sort 50K = 18 мс
+Sort 100K = 45 мс
+Sort 1M = 196 мс
