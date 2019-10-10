@@ -1,0 +1,14 @@
+C:\Users\ivano\source\repos\binding\bin\Debug\binding.exe.config
+C:\Users\ivano\source\repos\binding\bin\Debug\binding.exe
+C:\Users\ivano\source\repos\binding\bin\Debug\binding.pdb
+C:\Users\ivano\source\repos\binding\obj\Debug\binding.csprojAssemblyReference.cache
+C:\Users\ivano\source\repos\binding\obj\Debug\MainWindow.g.cs
+C:\Users\ivano\source\repos\binding\obj\Debug\App.g.cs
+C:\Users\ivano\source\repos\binding\obj\Debug\binding_MarkupCompile.cache
+C:\Users\ivano\source\repos\binding\obj\Debug\binding_MarkupCompile.lref
+C:\Users\ivano\source\repos\binding\obj\Debug\MainWindow.baml
+C:\Users\ivano\source\repos\binding\obj\Debug\binding.g.resources
+C:\Users\ivano\source\repos\binding\obj\Debug\binding.Properties.Resources.resources
+C:\Users\ivano\source\repos\binding\obj\Debug\binding.csproj.GenerateResource.cache
+C:\Users\ivano\source\repos\binding\obj\Debug\binding.exe
+C:\Users\ivano\source\repos\binding\obj\Debug\binding.pdb
