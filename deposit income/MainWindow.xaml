@@ -1,0 +1,78 @@
+﻿<Window x:Class="deposit_income.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:deposit_income"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="729" Width="1109.5">
+    <Grid RenderTransformOrigin="0.5,0.5" Background="White" OpacityMask="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="397" Margin="52,149,0,0" VerticalAlignment="Top" Width="281" StrokeThickness="0.6" OpacityMask="Red">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="#FFEBF5FF" RenderingBias="Quality" Opacity="1" Direction="140" BlurRadius="30" ShadowDepth="20"/>
+            </Rectangle.Effect>
+            <Rectangle.Stroke>
+                <SolidColorBrush Color="#FF3C60FF" Opacity="0.2"/>
+            </Rectangle.Stroke>
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFEBF5FF"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="rectangle_Copy" HorizontalAlignment="Left" Height="397" Margin="403,149,0,0" VerticalAlignment="Top" Width="282" StrokeThickness="0.6" OpacityMask="Red">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="#FFEBF5FF" RenderingBias="Quality" Opacity="1" Direction="140" BlurRadius="30" ShadowDepth="20"/>
+            </Rectangle.Effect>
+            <Rectangle.Stroke>
+                <SolidColorBrush Color="#FF3C60FF" Opacity="0.2"/>
+            </Rectangle.Stroke>
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFEBF5FF"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="rectangle_Copy1" HorizontalAlignment="Left" Height="397" Margin="756,149,0,0" VerticalAlignment="Top" Width="281" StrokeThickness="0.6">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="#FFEBF5FF" RenderingBias="Quality" Opacity="1" Direction="140" BlurRadius="30" ShadowDepth="20"/>
+            </Rectangle.Effect>
+            <Rectangle.Stroke>
+                <SolidColorBrush Color="#FF3C60FF" Opacity="0.2"/>
+            </Rectangle.Stroke>
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFEBF5FF"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label HorizontalAlignment="Left" Height="62" Margin="52,190,0,0"   Content="Стабильный" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="36" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="62" Margin="403,190,0,0"   Content="Оптимальный" VerticalAlignment="Top" Width="282" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="36" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="62" Margin="756,190,0,0"   Content="Стандарт" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="36" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="52,274,0,0"   Content="Без пополнения" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="52,308,0,0"   Content="Без снятия" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="52,342,0,0"   Content="Без капитализации" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="52,409,0,0"   Content="Минимальный срок" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="52,443,0,0"   Content="от 3 месяцев" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="72" Margin="77,474,0,0"   Content="8%" VerticalAlignment="Top" Width="92" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="54" HorizontalContentAlignment="Center" Foreground="#FF002B76" FontWeight="Bold"/>
+        <Label HorizontalAlignment="Left" Height="43" Margin="144,503,0,0"   Content="годовых" VerticalAlignment="Top" Width="189" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="30" HorizontalContentAlignment="Center" Foreground="#FF002B76" FontWeight="Bold" FontFamily="Arial"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="404,274,0,0"   Content="Пополняемый" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="404,308,0,0"   Content="Есть возможность снятия" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="404,342,0,0"   Content="С капитализацией" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="404,409,0,0"   Content="Минимальный срок" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="404,443,0,0"   Content="от 6 месяцев" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="72" Margin="429,474,0,0"   Content="5%" VerticalAlignment="Top" Width="92" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="54" HorizontalContentAlignment="Center" Foreground="#FF002B76" FontWeight="Bold"/>
+        <Label HorizontalAlignment="Left" Height="41" Margin="496,505,0,0"   Content="годовых" VerticalAlignment="Top" Width="189" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="30" HorizontalContentAlignment="Center" Foreground="#FF002B76" FontWeight="Bold" FontFamily="Arial"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="756,274,0,0"   Content="Пополняемый" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="756,308,0,0"   Content="Без снятия" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="756,342,0,0"   Content="Без капитализации" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="756,409,0,0"   Content="Минимальный срок" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="34" Margin="756,443,0,0"   Content="от 3 месяцев" VerticalAlignment="Top" Width="281" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="22" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Left" Height="72" Margin="781,474,0,0"   Content="6%" VerticalAlignment="Top" Width="92" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="54" HorizontalContentAlignment="Center" Foreground="#FF002B76" FontWeight="Bold"/>
+        <Label HorizontalAlignment="Left" Height="41" Margin="848,505,0,0"   Content="годовых" VerticalAlignment="Top" Width="189" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="30" HorizontalContentAlignment="Center" Foreground="#FF002B76" FontWeight="Bold" FontFamily="Arial"/>
+        <Button Content="Рассчитать доход" HorizontalAlignment="Left" Margin="334,610,0,0" VerticalAlignment="Top" Width="424" Height="52" FontSize="30" Background="#FF4287FF" Foreground="White" Click="Button_Click">
+            <Button.Effect>
+                <DropShadowEffect Direction="190" ShadowDepth="1" BlurRadius="10" Color="#0C000000"/>
+            </Button.Effect>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="60" Margin="774,10,0,0" VerticalAlignment="Top" Width="318" Source="resources/slide-0.jpg"/>
+    </Grid>
+</Window>
