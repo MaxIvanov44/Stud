@@ -1,0 +1,6 @@
+C:\Users\ivano\source\repos\Class creation\obj\Debug\Class creation.csprojAssemblyReference.cache
+C:\Users\ivano\source\repos\Class creation\bin\Debug\Class creation.exe.config
+C:\Users\ivano\source\repos\Class creation\bin\Debug\Class creation.exe
+C:\Users\ivano\source\repos\Class creation\bin\Debug\Class creation.pdb
+C:\Users\ivano\source\repos\Class creation\obj\Debug\Class creation.exe
+C:\Users\ivano\source\repos\Class creation\obj\Debug\Class creation.pdb
