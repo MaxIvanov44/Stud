@@ -1,0 +1,14 @@
+C:\Users\ivano\source\repos\Referee board\bin\Debug\Referee board.exe.config
+C:\Users\ivano\source\repos\Referee board\bin\Debug\Referee board.exe
+C:\Users\ivano\source\repos\Referee board\bin\Debug\Referee board.pdb
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee board.csprojAssemblyReference.cache
+C:\Users\ivano\source\repos\Referee board\obj\Debug\MainWindow.g.cs
+C:\Users\ivano\source\repos\Referee board\obj\Debug\App.g.cs
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee board_MarkupCompile.cache
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee board_MarkupCompile.lref
+C:\Users\ivano\source\repos\Referee board\obj\Debug\MainWindow.baml
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee board.g.resources
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee_board.Properties.Resources.resources
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee board.csproj.GenerateResource.cache
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee board.exe
+C:\Users\ivano\source\repos\Referee board\obj\Debug\Referee board.pdb
