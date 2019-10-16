@@ -1,0 +1,6 @@
+C:\Users\ivano\source\repos\method for finding the minimum element of an array\bin\Debug\method for finding the minimum element of an array.exe.config
+C:\Users\ivano\source\repos\method for finding the minimum element of an array\bin\Debug\method for finding the minimum element of an array.exe
+C:\Users\ivano\source\repos\method for finding the minimum element of an array\bin\Debug\method for finding the minimum element of an array.pdb
+C:\Users\ivano\source\repos\method for finding the minimum element of an array\obj\Debug\method for finding the minimum element of an array.csprojAssemblyReference.cache
+C:\Users\ivano\source\repos\method for finding the minimum element of an array\obj\Debug\method for finding the minimum element of an array.exe
+C:\Users\ivano\source\repos\method for finding the minimum element of an array\obj\Debug\method for finding the minimum element of an array.pdb
